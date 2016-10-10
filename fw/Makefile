@@ -46,6 +46,8 @@ flash:	main.elf
 clean:
 	rm -f *.o
 	rm -f *.elf
+	rm -f *.map
+	rm -f *.hex
 
 .PHONY: clean
 
